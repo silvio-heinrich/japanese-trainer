@@ -1,0 +1,125 @@
+@font-face {
+	font-family: FontA;
+	src: url(../fonts/honoka-min/font_1_honokamin.ttf);
+}
+@font-face {
+	font-family: FontB;
+	src: url(../fonts/Taroko.ttf);
+}
+@font-face {
+	font-family: FontC;
+	src: url(../fonts/Tetsubin-gothic.ttf);
+}
+@font-face {
+	font-family: FontD;
+	src: url(../fonts/kokoro/Kokoro.otf);
+}
+#letter {
+    width: 150pt;
+    height: 200pt;
+    text-align: center;
+    background-color: lightgray;
+    color: red;
+    font-size: 140pt;
+	font-family: FontD;
+}
+#timer {
+    width: 150pt;
+    height: 1.5em;
+    font-size: 18pt;
+    text-align: center;
+    background-color: #aaaaff;
+}
+#user-input {
+    width: 150pt;
+    font-size: 18pt;
+    height: 1.5em;
+    border: 1px dashed red;
+    text-align: center;
+}
+#statistics {
+    width: 50%;
+    background-color: #ffffaa;
+}
+.stat-entry {
+    background-color: yellow;
+    padding: 0.5em;
+    margin: 0.2em;
+    float: left;
+    width: 6em;
+}
+.table-cell {
+	float: left;
+	background-color: lightblue;
+	margin: 0.2em;
+	width: 2em;
+	height: 2em;
+	text-align: center;
+}
+.active {
+	color: white;
+	background-color: blue;
+}
+.inactive {
+	background-color: lightblue;
+}
+.table-cell:hover {
+	background-color: red;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.border-solid {
+	border: 1px solid black;
+}
+.button {
+	/*border: 1px solid black;*/
+	background-color: orange;
+	color: white;
+	padding: 0.25em;
+	width: 5em;
+	text-align: center;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: red;
+}
+.letter-display {
+	background-color: #aaaaff;
+	text-align: center;
+	/*width: 70%;*/
+	height: 2em;
+}
+.play {
+	background-image: url(../img/audio-volume.svg);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	width: 30%;
+	height: 2em;
+	cursor: pointer;
+}
+.mute {
+	background-color: yellow;
+	width: 30%;
+	height: 2em;
+	cursor: pointer;
+}
+.letter-canvas {
+	/*width: 7em;
+	height: 7em;*/
+}
+.margin-05em {
+	margin: 0.5em;
+}
+.margin-right-1em {
+	margin-right: 1em;
+}
+.background-red {
+	background-color: red;
+}
