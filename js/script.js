@@ -349,7 +349,7 @@ $(document).ready(function() {
 	$(".play-button").click(function() {
 		var index  = $(this).parent().data("index");
 
-		audio.loadFile("audio/" + romaji[index] + ".mp3", romaji[index], function(url, id) {
+		audio.loadFile("audio/" + romaji[index] + ".wav", romaji[index], function(url, id) {
 			console.log(url + " loaded");
 			audio.stop(id);
 			audio.play(id);
